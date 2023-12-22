@@ -37,7 +37,7 @@ def read_query_sql(script):
                         'Server=sony;'
                         'Database=abdul_base;'
                         'UID=sa;'
-                        'PWD=Tunslaw17!'
+                        'PWD=!'
                           )
     dfs = pd.read_sql_query(script, conn, index_col=None,parse_dates=None)
     conn.close()
